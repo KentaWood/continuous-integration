@@ -3,7 +3,6 @@
 def factorial(n):
     '''
     Returns the product of all numbers from 1 to n.
-
     >>> factorial(1)
     1
     >>> factorial(2)
@@ -42,3 +41,7 @@ def triangular(n):
     >>> triangular(400)
     80200
     '''
+    result=1
+    for i in range(2,n+1):
+        result+=i
+    return result
